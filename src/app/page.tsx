@@ -1,11 +1,14 @@
-import Button from "@/components/Button/Button";
 import Slider from "@/components/Slider/Slider";
-import Link from "next/link";
+import Booknow from "@/Sections/Booknow/Booknow";
 export default function Home() {
   return (
-    <div className="space-y-10">
+    <div >
      <section>
       <Slider/>
+     </section>
+     <section>
+      <Booknow/>
+
      </section>
     </div>
   );
